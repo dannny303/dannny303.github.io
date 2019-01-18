@@ -27,7 +27,6 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          
         </ul>
       </div>
     </nav>
@@ -209,7 +208,6 @@
             <p>A site to look up Colorado surface water information and log trip reports utilizing Flask, several API's and an SQL database.</p>
         </div>
       </section>
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
@@ -217,9 +215,6 @@
           <p>A true Colorado native at heart, I thoroughly enjoy everything outdoors! A huge fly fisherman that loves to float down the river hunting for fishy friends. Turning over river rocks to find bugs to photograph then replicate on the flytying vise. A snowboarder with an endless thirst for deep and steep untracked powder. Long distance hiker extraordinaire.</p>
         </div>
       </section>
-
-      
-
     </div>
   </div>
 </template>
