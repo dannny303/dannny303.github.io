@@ -4,7 +4,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#about">
         <span class="d-block d-lg-none">Danny Marez</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/20160813_115404.jpeg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/bitmoji-20181202114851.png" alt="bitmoji of Danny">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,17 +19,15 @@
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -96,6 +94,34 @@
               <span class="text-primary">{{ job.startDate }} - {{ job.endDate }}</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              <li>Software Development Certification</li>
+              <li>Devetry Code/Forward and Emily Griffith Technical College</li>
+            <li>
+              <i class="fa-li fa fa-tint text-warning"></i>
+              <li>River Outfitter/Fly-Fishing Guide </li>
+              <li> Colorado Division of Parks and Outdoor Recreation</li>
+            <li>
+              <i class="fa-li fa fa-heartbeat text-warning"></i>
+              <li>CPR, AED and Basic First Aid</li>
+              <li>American Safety and Heart Institute</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              <li>Colorado Trail</li>
+              <li>Through hike of the Colorado Trail, Denver to Durango.</li>
+            <li>
+              <i class="fa-li fa fa-ambulance text-warning"></i>
+              <li>Emergency Medical Technician-B</li>
+              <li>St. Anthony Pre-Hospital Services and Institute of Emergency Medical Training</li>
+          </ul>
         </div>
       </section>
 
@@ -187,54 +213,13 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>I've got an insatiable desire to discover how things work. The Internet of Things, or IoT, is a fascinating beast with unlimited potental. I love reading about the latest and greatest advances in technology and science. Music enthusiast and a DIY backyard engineer.</p>
-          <p>A true Colorado native at heart, I thoroughly enjoy everything outdoors! A Huge fly fisherman that loves to row my boat down the river hunting for fishy friends. Turning over river rocks to find bugs to photograph then replicate on the flytying vise.  A snowboarder with an endless thirst for deep and steep untracked powder. Long distance hiker extraordinaire.</p>
+          <p>I've got an insatiable desire to discover how things work. I love reading about the latest and greatest advances in technology and science. Music enthusiast and a DIY master.</p>
+          <p>A true Colorado native at heart, I thoroughly enjoy everything outdoors! A huge fly fisherman that loves to float down the river hunting for fishy friends. Turning over river rocks to find bugs to photograph then replicate on the flytying vise. A snowboarder with an endless thirst for deep and steep untracked powder. Long distance hiker extraordinaire.</p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-              <li>Software Development Certification</li>
-              <li>Devetry Code/Forward and Emily Griffith Technical College</li>
-            <li>
-              <i class="fa-li fa fa-tint text-warning"></i>
-              <li>River Outfitter/Fly-Fishing Guide </li>
-              <li> Colorado Division of Parks and Outdoor Recreation</li>
-            <li>
-              <i class="fa-li fa fa-heartbeat text-warning"></i>
-              <li>CPR, AED and Basic First Aid</li>
-              <li>American Safety and Heart Institute</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <li>Colorado Trail</li>
-              <li>Through hike of the Colorado Trail, Denver to Durango, 500 miles in 26 days.</li>
-            <li>
-              <i class="fa-li fa fa-ambulance text-warning"></i>
-              <li>Emergency Medical Technician-B</li>
-              <li>St. Anthony Pre-Hospital Services and Institute of Emergency Medical Training</li>
-          </ul>
-        </div>
-      </section>
+      
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">P.S.1 Charter School</h3>
-              <div class="subheading mb-3">High School Diploma </div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2004</span>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   </div>
 </template>
@@ -248,7 +233,7 @@ export default {
       surname: 'MAREZ',
       address: '720 16th Street · Denver, CO 80202 · (720) 427-4582 ·',
       email: '750danny@gmail.com',
-      aboutMe: 'A junior software developer with full stack knowledge and extensive experience in property management. Avid Outdoorsman and DIY Master.',
+      aboutMe: 'A junior software developer with full stack knowledge and extensive experience in property management.',
       experience: [
         {
           position: 'Software Development Intern',
